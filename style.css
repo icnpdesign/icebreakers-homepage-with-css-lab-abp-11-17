@@ -1,5 +1,5 @@
 * {
-  font-family: "Helvetica", "Arial", "sans-serif";
+  font-family: "Helvetica", "Arial", "san-serif";
 }
 
 body {
@@ -8,16 +8,16 @@ body {
 
 header {
   height: 100px;
-  border-bottom: solid 1px #CCC;
+  border-bottom: 1px solid #ccc;
 }
 
-header nav {
+header nav { 
   float: right;
 }
 
 nav ul {
-  padding: 0;
   margin: 40px 0 0 0;
+  padding: 0;
 }
 
 nav ul li {
@@ -41,18 +41,18 @@ h3#header {
   font-size: 30px;
 }
 
-#header a {
+#header a{
   text-decoration: none;
   color: #868e96;
 }
 
-#header a:hover {
+#header a:hover{
   text-decoration: underline;
 }
 
-main {
+main{
   margin-top: 20px;
-  }
+}
 
 div.jumbotron {
   border-radius: 5px;
@@ -61,7 +61,7 @@ div.jumbotron {
   text-align: center;
 }
 
-.jumbotron h1 {
+.jumbotron h1{
   font-size: 60px;
 }
 
@@ -71,20 +71,18 @@ div.jumbotron {
   line-height: 40px;
 }
 
-div.questions {
+div.questions{
   padding: 0 20px 0 20px;
 }
-
-div.questions h4 {
+div.questions h4{
   font-size: 30px;
   margin-bottom: 10px;
 }
 
-div.questions p {
+div.questions p{
   margin-top: 30px;
 }
-
-div.questions a.btn {
+div.questions a.btn{
   border-radius: 5px;
   color: #FFF;
   background-color: #007bff;
@@ -94,13 +92,13 @@ div.questions a.btn {
   font-size: 20px;
 }
 
-div.questions a.btn:hover {
+div.questions a.btn:hover{
   background-color: #0069d9;
   border-color: #0069d9;
 }
 
-footer {
-  border-top: 1px solid #CCC;
+footer{
+  border-top: 1px solid #ccc;
   margin-top: 80px;
   padding-top: 20px;
   color: #CCC;
